@@ -16,10 +16,10 @@
 <meta property="og:description" content="Your notes become a knowledge graph; AI agents prepare literature, connections, and reproductions overnight. You ratify what counts.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://kisbi3.github.io/labmates-site/">
-<meta property="og:image" content="https://kisbi3.github.io/labmates-site/assets/bench.png">
+<meta property="og:image" content="https://kisbi3.github.io/labmates-site/assets/graph.png">
 <link rel="canonical" href="https://kisbi3.github.io/labmates-site/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://kisbi3.github.io/labmates-site/assets/bench.png">
+<meta name="twitter:image" content="https://kisbi3.github.io/labmates-site/assets/graph.png">
 <meta name="twitter:title" content="LabMates · An AI research lab for a PI of one">
 <meta name="twitter:description" content="Your notes become a knowledge graph; AI agents prepare literature, connections, and reproductions overnight. You ratify what counts.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23A65238'/%3E%3Ctext x='16' y='21.5' font-family='Georgia,serif' font-size='13' fill='%23faf9f5' text-anchor='middle'%3ELM%3C/text%3E%3C/svg%3E">
@@ -905,19 +905,25 @@ footer.foot {
     <div class="section-head">
       <p class="section-num">00 · The workbench</p>
       <h2 class="section-title">One window over the whole lab</h2>
-      <p class="section-lede">A desktop app that reads like Obsidian, edits like VSCode, and reports like a lab meeting: your notes, your code, and every agent's task board in one calm surface.</p>
+      <p class="section-lede">A desktop app that reads like Obsidian and edits like VSCode: your notes and their graph, your code and its history, your agents and their task boards — one calm surface, local or over SSH.</p>
     </div>
 
     <div class="gallery" data-gallery>
       <div class="gallery-frame" aria-live="polite">
-        <figure class="gallery-panel is-active" data-title="Bench" data-line="Every board, day and night, at a glance.">
-          <img src="./assets/bench.png" alt="LabMates Bench: all-boards dashboard showing day and night kanban boards with ready, blocked, and done tasks" loading="eager" decoding="async">
-        </figure>
-        <figure class="gallery-panel" data-title="Knowledge graph" data-line="Your notes, resolving themselves into structure." aria-hidden="true">
-          <img src="./assets/graph.png" alt="LabMates knowledge graph: live force-directed graph of research notes with filters and force controls" loading="lazy" decoding="async">
+        <figure class="gallery-panel is-active" data-title="Knowledge graph" data-line="Your notes, resolving themselves into structure.">
+          <img src="./assets/graph.png" alt="LabMates knowledge graph: live force-directed graph of research notes with filters and force controls" loading="eager" decoding="async">
         </figure>
         <figure class="gallery-panel" data-title="Editor" data-line="Markdown stays canonical; the prose stays yours." aria-hidden="true">
           <img src="./assets/editor.png" alt="LabMates editor: a project memory note rendered in reading mode beside the vault file tree" loading="lazy" decoding="async">
+        </figure>
+        <figure class="gallery-panel" data-title="Source control" data-line="Every result, versioned beside the note that claims it." aria-hidden="true">
+          <img src="./assets/git.png" alt="LabMates source control: commit graph and staged changes beside a Python analysis file in the Monaco editor" loading="lazy" decoding="async">
+        </figure>
+        <figure class="gallery-panel" data-title="Bench" data-line="Every board, day and night, at a glance." aria-hidden="true">
+          <img src="./assets/graph.png" alt="LabMates Bench: all-boards dashboard showing day and night kanban boards with ready, blocked, and done tasks" loading="lazy" decoding="async">
+        </figure>
+        <figure class="gallery-panel" data-title="Agent network" data-line="Who prepares, who reviews, who validates." aria-hidden="true">
+          <img src="./assets/agents.png" alt="LabMates agent network: coordinator, professor, grad, reviewer, and validator roles connected by delegation and validation edges" loading="lazy" decoding="async">
         </figure>
       </div>
       <div class="gallery-caption">
@@ -925,9 +931,11 @@ footer.foot {
         <p class="line" data-gallery-line></p>
       </div>
       <div class="gallery-tabs" aria-label="Choose a screenshot">
-        <button type="button" class="is-active" aria-pressed="true">Bench</button>
-        <button type="button" aria-pressed="false">Knowledge graph</button>
+        <button type="button" class="is-active" aria-pressed="true">Knowledge graph</button>
         <button type="button" aria-pressed="false">Editor</button>
+        <button type="button" aria-pressed="false">Source control</button>
+        <button type="button" aria-pressed="false">Bench</button>
+        <button type="button" aria-pressed="false">Agent network</button>
       </div>
     </div>
   </section>
@@ -943,6 +951,10 @@ footer.foot {
       <li>
         <p class="name">Second Brain<small>Notes that remember each other.</small></p>
         <p class="what">Your Markdown notes are scanned into a research knowledge graph — papers, concepts, methods, claims. Ask a question in plain language and the lab answers from your own notes with sources, falling back to the raw PDFs when the notes run out. The index is derived and deletable; your files are never rewritten.</p>
+      </li>
+      <li>
+        <p class="name">Workbench<small>Where reading and running meet.</small></p>
+        <p class="what">One editor for the whole research loop: Markdown with equations and cross-references, code with full syntax support, notebooks running on local or SSH Jupyter kernels, terminals, and a git workbench with commit graph and staging. Obsidian-style canvas boards, frontmatter table views, and voice memos live in the same vault.</p>
       </li>
       <li>
         <p class="name">Day tier<small>Direct the science in conversation.</small></p>
