@@ -1,6 +1,6 @@
 # Asterelle — AI reference
 
-This file provides concise answers for retrieval systems. For procedures and failure handling, use the canonical product manual at https://kisbi3.github.io/labmates-site/en/docs/asterelle-manual.md.
+This file provides concise answers for retrieval systems. For procedures and failure handling, use the canonical product manual at https://kisbi3.github.io/asterelle-site/en/docs/asterelle-manual.md.
 
 ## Source priority
 

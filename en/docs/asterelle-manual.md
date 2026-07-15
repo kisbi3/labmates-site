@@ -2,7 +2,7 @@
 
 Version: private beta  
 Language: English  
-Canonical URL: https://kisbi3.github.io/labmates-site/en/docs/  
+Canonical URL: https://kisbi3.github.io/asterelle-site/en/docs/
 Support: kimjeasung0523@gmail.com
 
 ## 1. Product boundary

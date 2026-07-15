@@ -14,11 +14,11 @@ Key facts:
 
 ## Links
 
-- [Landing page](https://kisbi3.github.io/labmates-site/)
-- [Canonical product manual](https://kisbi3.github.io/labmates-site/en/docs/asterelle-manual.md): task procedures, invariants, expected results, and failure handling
-- [Human-readable documentation](https://kisbi3.github.io/labmates-site/en/docs/)
-- [Changelog](https://kisbi3.github.io/labmates-site/en/changelog/): current private-beta changes
-- [Full AI reference](https://kisbi3.github.io/labmates-site/llms-full.txt)
+- [Landing page](https://kisbi3.github.io/asterelle-site/)
+- [Canonical product manual](https://kisbi3.github.io/asterelle-site/en/docs/asterelle-manual.md): task procedures, invariants, expected results, and failure handling
+- [Human-readable documentation](https://kisbi3.github.io/asterelle-site/en/docs/)
+- [Changelog](https://kisbi3.github.io/asterelle-site/en/changelog/): current private-beta changes
+- [Full AI reference](https://kisbi3.github.io/asterelle-site/llms-full.txt)
 
 ## Retrieval guidance
 
